@@ -1,0 +1,199 @@
+.shop .green-line.first {
+    position: absolute;
+    top: 0;
+    margin-top: 0;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.shop {
+    padding-top:140px;
+}
+
+.shop .title {
+    font-size: 40px;
+}
+
+.shop .block-img {
+    margin-bottom: 15px;
+}
+
+.block-tovar {
+    width: 33%;
+    margin-right: 60px;
+    position: relative;
+}
+
+.shop .button {
+    width: 70%;
+    display: block;
+    margin: 10px auto;
+    background: #7E2780 ;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.shop .row {
+    margin-bottom: 20px;
+}
+
+.shop .things ,
+.shop .course {
+    margin-bottom: 80px;
+}
+
+.shop .course { 
+    padding: 0px 50px;
+}
+
+.course .block-tovar {
+    width: 25%;
+}
+
+.course .block-first-circle {
+    width: 100%;
+    position: relative;
+    border-radius: 50%;
+    border: 3px solid #7E2780;
+    margin-bottom: 20px;
+}
+
+.course .block-circle {
+    width: 96%;
+    padding: 30px 60px;
+    position: relative;
+    border-radius: 50%;
+    border: 6px solid #7E2780;
+    margin: 5px auto;
+}
+
+.block-circle p {
+    width: fit-content;
+    background-color: #7E2780;
+    margin: 0px auto;
+    text-align: center;
+    padding: 5px 20px;
+    color: #fff;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.block-circle .block-img {
+    width: 80%;
+    margin: 0px auto;
+}
+
+.course .course-info {
+    width: 100%;
+    height: 390px;
+    border: 5px solid #7E2780;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.course-info .subtitle {
+    margin: 25px 0px 10px;
+}
+
+.course ul li {
+    margin-bottom: 10px;
+    padding-left: 5px;
+}
+
+.course ul {
+    list-style-type: "\1F7E3";
+    margin-left: 60px;
+} 
+
+.shop .course,
+.shop .sales-things,
+.shop .payment {
+    margin-top: 50px;
+}
+
+.shop .sales-things .block-img {
+    width: 30%;
+}
+
+.shop .sales-things .second-column {
+    width: 30%;
+    padding-top: 70px;
+}
+
+.sales-things .second-column .button {
+    margin: 40px auto;
+}
+
+@media (max-width:1200px) {
+    .course .block-circle {
+        padding: 20px 33px;
+    }
+    .block-circle p {
+        margin-top: 10px;
+    }
+    .course ul {
+        margin-left: 30px;
+    }
+    .course-info .subtitle {
+        margin: 20px 0px 15px;
+    }
+}
+
+@media (max-width:992px) {
+    .course .block-circle {
+        padding: 20px 33px;
+    }
+    .block-circle p {
+        margin-top: 0px;
+        font-size: 14px;
+        padding: 5px 10px;
+        margin-bottom: 5px;
+    }
+    .course ul {
+        margin-left: 20px;
+    }
+    .course-info .subtitle {
+        font-size: 16px;
+    }
+    .shop .course-info .button {
+        width: 100%;
+    }
+    .course .course-info {
+         height: 420px;
+    }
+}
+
+@media (max-width:767px){
+    .shop {
+        padding-top: 100px;
+    }
+    .block-tovar,
+    .course .block-tovar {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .shop .title {
+        font-size: 20px;
+    }
+    .shop .sales-things .block-img {
+        width: 100%;
+        height: 200px;
+    }
+    .shop .sales-things .second-column {
+        width: 100%;
+        padding-top: 20px;
+    }
+   .shop .course,
+   .shop .things,
+   .shop .sales-things,
+   .shop .payment {
+    margin: 0px;
+    }
+    .shop .title {
+        margin-bottom: 20px;
+    }
+    .course .course-info {
+        height: auto;
+    }
+}

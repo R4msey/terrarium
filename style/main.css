@@ -1,0 +1,136 @@
+
+.intro.main {
+    background-image: url(../img/intro.png);
+    background-size: cover;
+    height: 100vh;
+}
+
+.block-img {
+    margin-bottom: 40px;
+    width: 100%;
+    height: auto;
+    position: relative;
+    text-align: center;
+}
+
+.block-img img {
+    max-width: 100%;
+    max-height: 100%;
+    transition: .7s ease;
+}
+
+.block-img .img_backtext {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    min-width: 30%;
+    height: 100px;
+    margin-top: -50px;
+    background: rgba(255, 255, 255, 0.45);
+    opacity: 0.8;
+    transition: .7s ease;
+    cursor: pointer;
+}
+
+.img_backtext p {
+    text-transform: uppercase;
+    font-size: 22px;
+    margin-top: 35px;
+}
+
+.main .block-img:hover img {
+    opacity: .6;
+    transition: .5s ease;
+}
+
+.main .block-img:hover .img_backtext {
+    opacity: .9;
+    background-color: #7E2780;
+    transition: .5s ease;
+}
+
+.main .title {
+    width: 600px;
+} 
+
+.main .subtitle {
+    width: 300px;
+}
+
+/*-------------------media------------------------- */
+
+@media (min-width:1000px) and (max-height:710px) {
+    .intro {
+        min-height: 580px;
+    }
+    .intro h1 {
+        font-size: 60px;
+        line-height: 1.5;
+    }
+    .intro h2 {
+        font-size: 40px;
+        width: 50%;
+    }
+    .intro .container {
+        padding-top: 150px;
+    }
+    .intro.main .button.button.busket {
+        bottom: 30px;
+    }
+}
+
+@media (max-width:992px) {
+    .block-img .img_backtext {
+        padding: 0px 15px;
+    }
+   
+    .intro.main {
+        min-height: 710px;
+    }
+    .intro:not(.main) h1 {
+        font-size: 40px;
+        line-height: 1.5;
+    }
+}
+
+@media (max-width:767px) {
+    .intro.main {
+        background-image: url(../img/intro_mobile.png);
+    }
+    .intro h1 {
+        font-size: 40px;
+        line-height: 1.5;
+    }
+    .intro h2 {
+        font-size: 20px;
+        width: 50%;
+    }
+    .intro .container {
+        padding-top: 150px;
+    }
+    .intro .button.busket {
+        bottom: 100px;
+        font-size: 18px;
+    }
+    .content {
+        padding: 1px 0px 1px 0px;
+    }
+    .content .container.gallery {
+        display: block;
+    }
+    .block-img .img_backtext {
+        width: 50%;
+        left: 25%;
+    }
+    .block-img {
+        margin-bottom: 10px;
+    }
+    .first-column,
+    .second-column {
+        width: 100%;
+    }
+    .main .subtitle,
+    .main .title {
+        width: 100%;
+    }
+}
