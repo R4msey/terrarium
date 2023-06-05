@@ -440,7 +440,7 @@ h1 {
     .header__menu.active {
         top: 0;
     }
-    .header__logo,
+
     .footer__logo {
         height: 100%;
         flex: 0 0 40px;

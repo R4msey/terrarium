@@ -1,169 +1,169 @@
 .intro.contacts .container {
-    padding-top: 140px;
+  padding-top: 140px;
 }
 
 .intro.contacts h1 {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 #video-intro {
-    height: auto;
-    width: 100%;
-    border-radius: 10px;
+  object-fit: cover;
+  background-position: center center;
+  width: 100vw;
+  height: 80vh;
+  z-index: 1;
 }
 
 .second-column .title {
-    display: inline-block;
-    margin: 0px 0px;
-    padding-left: 50px;
+  display: inline-block;
+  margin: 0px 0px;
+  padding-left: 50px;
 }
 
 .intro.contacts .first-column {
-    width: 70%;
+  width: 70%;
 }
 
 .intro.contacts .second-column {
-    width: 30%;
+  width: 30%;
 }
 
 .our-personal {
-    width: 100%;
-    position: relative;
+  width: 100%;
+  position: relative;
 }
 
 .our-personal .second-column {
-    width: 40%;
-    margin-top: 50px;
+  width: 40%;
+  margin-top: 50px;
 }
 
-.our-personal .second-column .subtitle, 
+.our-personal .second-column .subtitle,
 .our-personal .second-column .title {
-    margin-bottom: 30px;
-    text-align: left;
+  margin-bottom: 30px;
+  text-align: left;
 }
 
 .our-personal ul li {
-    margin-bottom: 10px;
-    padding-left: 15px;
+  margin-bottom: 10px;
+  padding-left: 15px;
 }
 
 .our-personal ul {
-    list-style-type: "\1F7E3";
+  list-style-type: "\1F7E3";
 }
 
 .our-personal .block-img img {
-    border-radius: 5px;
+  border-radius: 5px;
 }
 
 .send-message {
-    width: 100%;
-    position: relative;
+  width: 100%;
+  position: relative;
 }
 
 .send-message label {
-    font-size: 18px;
-
+  font-size: 18px;
 }
 
-.send-message  input[type=text] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0px 20px 0px;
-    display: inline-block;
-    border: 2px solid #7E2780;
-    box-sizing: border-box;
-    font-size: 14px;
-}
-  
-.send-message input[type=submit] {
-    background-color: #7E2780;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px auto;
-    margin-left: 25%;
-    border: none;
-    cursor: pointer;
-    width: 50%;
-    font-size: 18px;
+.send-message input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0px 20px 0px;
+  display: inline-block;
+  border: 2px solid #7e2780;
+  box-sizing: border-box;
+  font-size: 14px;
 }
 
-.send-message input[type=submit]:active {
-    opacity: .8;
+.send-message input[type="submit"] {
+  background-color: #7e2780;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px auto;
+  margin-left: 25%;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  font-size: 18px;
+}
+.send-message input[type="submit"]:hover {
+  opacity: 0.8;
 }
 
 .send-message textarea {
-    width: 100%;
-    height: 250px;
-    resize: none;
-    margin: 8px 0px 20px 0px;
-    border: 2px solid #7E2780;
-    padding: 10px;
-}
-  
-.columns.write-message .first-column {
-    width: 70%;
+  width: 100%;
+  height: 250px;
+  resize: none;
+  margin: 8px 0px 20px 0px;
+  border: 2px solid #7e2780;
+  padding: 10px;
 }
 
-@media (max-width:1200px){ 
+.columns.write-message .first-column {
+  width: 70%;
+}
+
+@media (max-width: 1200px) {
   .our-personal .second-column {
     margin-top: 0px;
   }
 }
 
-@media (max-width:992px){ 
-    .columns.write-message .second-column {
-        margin-top: 40px;
-    } 
-    .second-column .title {
-        padding-left: 0px;
-    }
-    .send-message textarea {
-        height: 150px;
-    }
-    .our-personal ul li {
-        margin-bottom: 5px;
-    }
-    .our-personal .second-column .subtitle, 
-    .our-personal .second-column .title {
-        margin-bottom: 10px;
-    }
+@media (max-width: 992px) {
+  .columns.write-message .second-column {
+    margin-top: 40px;
+  }
+  .second-column .title {
+    padding-left: 0px;
+  }
+  .send-message textarea {
+    height: 150px;
+  }
+  .our-personal ul li {
+    margin-bottom: 5px;
+  }
+  .our-personal .second-column .subtitle,
+  .our-personal .second-column .title {
+    margin-bottom: 10px;
+  }
 }
 
-@media (max-width:767px){ 
-    .intro.contacts .container {
-         padding-top: 100px;
-    }
-    .intro.contacts .columns {
-        display: block;
-    }
-    .intro.contacts .first-column, 
-    .intro.contacts .second-column {
-        width: 100%;
-    }
-    .intro.contacts .first-column {
-        margin-bottom: 15px;
-     }
-     .columns.write-message .first-column {
-         width: 100%;
-         margin-right: 0px;
-     }
-    .columns.write-message .second-column {
-        display: none;
-    } 
-    .second-column .title {
-        padding-left: 0px;
-    }
-    .send-message textarea {
-        height: 150px;
-    }
-    .our-personal .first-column {
-        width: 100%;
-        margin-bottom: 10px;
-    }
-    .our-personal .second-column  {
-        width: 90%;
-        margin: 0px 0px 30px 30px;
-    }
-    .our-personal .second-column .title {
-        margin-left: 20px;
-    }
+@media (max-width: 767px) {
+  .intro.contacts .container {
+    padding-top: 100px;
+  }
+  .intro.contacts .columns {
+    display: block;
+  }
+  .intro.contacts .first-column,
+  .intro.contacts .second-column {
+    width: 100%;
+  }
+  .intro.contacts .first-column {
+    margin-bottom: 15px;
+  }
+  .columns.write-message .first-column {
+    width: 100%;
+    margin-right: 0px;
+  }
+  .columns.write-message .second-column {
+    display: none;
+  }
+  .second-column .title {
+    padding-left: 0px;
+  }
+  .send-message textarea {
+    height: 150px;
+  }
+  .our-personal .first-column {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .our-personal .second-column {
+    width: 90%;
+    margin: 0px 0px 30px 30px;
+  }
+  .our-personal .second-column .title {
+    margin-left: 20px;
+  }
 }
